@@ -70,7 +70,7 @@ const Cart = ({cart, changeQuantity, removeItem}) => {
                             <span>Total</span>
                             <span>${(total() * 1.1).toFixed(2)}</span>
                         </div>
-                        <button className="btn btn__checkout no-cursor" onClick={() => alert('Feature not available yet.')}>
+                        <button className="btn btn__checkout no-cursor" onClick={() => alert('I do not actually have these books to sell!')}>
                             Proceed to checkout
                         </button>
                     </div>
