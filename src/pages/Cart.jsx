@@ -79,6 +79,6 @@ const Cart = ({cart, changeQuantity, removeItem}) => {
             </main>
         </div>
     )
-}
+} 
 
 export default Cart
